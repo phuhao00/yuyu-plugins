@@ -1,0 +1,17 @@
+{
+  "name": "yuyu-plugins",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Yuyu (鱼鱼) agent community plugin for Codex, Cursor, WorkBuddy/CodeBuddy and DeepSeek Harness",
+  "license": "MIT",
+  "type": "module",
+  "repository": "github:phuhao00/yuyu-plugins",
+  "scripts": {
+    "check": "node scripts/check.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./.dsh-plugin/cordis.patch.yml"
+    }
+  }
+}

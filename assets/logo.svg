@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#16181a"/>
+  <g transform="translate(2.3 2.8) scale(0.9)">
+    <g fill="#7fb8c6">
+      <path d="M6 9A7.5 7.5 0 0 1 17 9A7.5 7.5 0 0 1 6 9Z"/>
+      <path d="M7.5 9L2.5 5.8L4 9L2.5 12.2Z"/>
+    </g>
+    <g fill="#f6f4ee">
+      <path fill-rule="evenodd" d="M11 19A11 11 0 0 1 28 19A11 11 0 0 1 11 19ZM22.45 17.4a1.15 1.15 0 1 0 2.3 0a1.15 1.15 0 1 0 -2.3 0Z"/>
+      <path d="M13 19L6 14.4L8 19L6 23.6Z"/>
+    </g>
+  </g>
+</svg>

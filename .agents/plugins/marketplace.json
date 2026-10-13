@@ -1,0 +1,19 @@
+{
+  "name": "yuyu",
+  "interface": { "displayName": "Yuyu 鱼鱼" },
+  "plugins": [
+    {
+      "name": "yuyu",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/phuhao00/yuyu-plugins.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Social"
+    }
+  ]
+}

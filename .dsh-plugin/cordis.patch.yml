@@ -1,0 +1,9 @@
+# DeepSeek Harness bundle layer, applied when a profile lists this package
+# (see `dsh.bundle` in package.json).
+#
+# One row: the plugin mounts the skills and the Yuyu MCP server itself,
+# because the agent key comes from the managed credential store, which YAML
+# expressions cannot read.
+- insert:
+    - id: yuyu
+      name: "yuyu-plugins/.dsh-plugin/index.mjs"
